@@ -1,0 +1,35 @@
+.icon{
+    font-size: 2rem;
+}
+
+
+.h-2{font-size: 4rem; line-height: 1;}
+@media screen and (max-width:850px){
+    .h-2{font-size: 3rem;}  
+}
+
+.h-3{font-size: 2rem;line-height: 1;}
+@media screen and (max-width:850px){
+    .h-3{font-size: 1.8rem;}  
+    
+}
+
+.h-4{font-size: 1.8rem;line-height: 1;font-weight: 600;}
+@media screen and (max-width:850px){
+    .h-4{font-size: 1.5rem;}  
+    
+}
+
+
+.p-1{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+
+.hg-text{color:mediumseagreen; font-size: 6rem;}
+@media screen and (max-width:850px){
+    .h-2{font-size: 3rem;}  
+    .hg-text{color:mediumseagreen; font-size: 3.5rem;}
+}
+   

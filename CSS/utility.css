@@ -1,0 +1,21 @@
+.container{
+    max-width: 1120px;
+    margin:0 auto;
+}
+
+.txt-left{text-align: left;}
+.txt-center{text-align: center;}
+
+
+
+.my2{margin-top: 20px; margin-bottom: 20px;}
+.my1{margin-top: 10px; margin-bottom: 10px;}
+
+
+
+.btn-small{
+    font-size: 1.5rem;
+    font-weight: 500;
+    border-radius: 1rem;
+    padding:.8rem;
+}

@@ -1,0 +1,64 @@
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height:100vh;
+    
+   
+}
+.hero .h-2{
+    color:white;
+    text-transform: uppercase;
+    text-align: center;
+    line-height:1;
+     text-shadow: 1px 1px 15px rgb(0, 5, 2);
+}
+.hero-container{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+
+.s-form-simple{
+   
+    display: block;
+    width: 100%;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.s-form-simple button,.s-form-simple select{ 
+    cursor: pointer;
+    display: block;
+    background-color: rgb(255, 255, 255);
+    color:rgb(60, 63, 61);
+    margin:1rem .5rem;
+    padding: 1rem;
+    font-size: 1.7rem;
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+    /* border-radius: 1.3rem; */
+    
+    outline: none;
+    border: none;
+    border: 2px solid mediumseagreen;
+    border-radius: 1rem;
+    ;
+}
+
+.s-form-simple select{flex: 0 0 22%}
+
+
+@media screen and (max-width:1050px){
+    .s-form-simple button,.s-form-simple select{flex: 0 0 50%; width:50%;  } 
+   
+}
+@media screen and (max-width:650px){
+    .s-form-simple button,.s-form-simple select{flex: 0 0 90%; width:90%;  }   
+}
+
+
